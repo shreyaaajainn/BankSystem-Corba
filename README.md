@@ -1,17 +1,19 @@
 # corba
 
-** These commands are only valid for linux terminal
+** These commands are only valid for windows terminal
 
 -----------------------------------------------
 ############# Compiling files #################
 -----------------------------------------------
 
-1 . open terminal and give root privilages
-->  sudo su
+1 . open terminal
 
 2 . go to correct folder using cd command
 
-3 . compile the idl file (it will generate BankAppfolder)
+3 . open another terminal and type the command
+-> tnameserv
+
+3 . compile the idl file (it will generate BankAppfolder) [in the first cmd]
 ->  idlj -fall Bank.idl
 
 4 . compile the client code
@@ -31,8 +33,7 @@
 ############# Running Server Code #################
 ---------------------------------------------------
 
-1 . open new terminal and give root privilages
-->  sudo su
+1 . open new terminal
 
 2 . go to correct folder using cd command 
 
@@ -43,8 +44,7 @@
 ############# Running Client Code #################
 ---------------------------------------------------
 
-1 . open new terminal and give root privilages
-->  sudo su
+1 . open new terminal 
 
 2 . go to correct folder using cd command 
 
